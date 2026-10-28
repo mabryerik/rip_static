@@ -1,0 +1,33 @@
+html {
+	background: #2a2a2a;
+	color: whitesmoke;
+	font-family: ui-monospace, monospace;
+	letter-spacing: -1px;
+}
+
+main {
+	width: min(100% - 1rem, 90ch);
+	margin-inline: auto;
+	display: grid;
+	min-height: 90dvh;
+	place-content: center;
+}
+
+
+h1 {
+	text-align: center;
+	text-shadow: 0 2px 1px black;
+	font-size: clamp(4rem, 10dvw, 10rem);
+	line-height: 0.8;
+	text-align: justify;
+	text-transform: uppercase;
+}
+
+iframe {
+	margin-inline: auto;
+	display: block;
+	border-radius: 2rem;
+	corner-shape: squircle;
+	overflow: hidden;
+	box-shadow: 0 0 5px black;
+}
